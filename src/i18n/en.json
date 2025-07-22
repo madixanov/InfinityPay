@@ -1,0 +1,146 @@
+{
+  "page_one": {
+    "welcome_span": "WELCOME TO INFINITY-PAY",
+    "welcome": "PRIVATE LIMITED COMPANY",
+    "bridge": "Your bridge between business and the world of financial solutions",
+    "small_desc": "We provide flexible and secure payment solutions that help your business scale without borders"
+  },
+  "page_two": {
+    "header_span": "RELIABLE PARTNER",
+    "header_text1": "INFINITY-PAY IS A",
+    "header_text2": "FOR COMPANIES AND INDIVIDUALS LOOKING FOR FAST WAYS TO SEND AND RECEIVE PAYMENTS WORLDWIDE",
+    "header_sub_text": "Providing confidence and security at every step of your financial journey",
+    "offer_text": "We offer innovative payment solutions that open new opportunities for your business and personal finances. Our team of experts ensures your interests and transaction security are protected.",
+    "offer_sub_text": "Let us be part of your financial success.",
+    "main_facts_header": "KEY FACTS ABOUT US IN NUMBERS",
+    "time_schedule": "operating non-stop",
+    "experts_count": "experts working on product development",
+    "countries_count_1": "countries",
+    "countries_count_2": "we collaborate with",
+    "projects_count": "projects",
+    "projects_count_2": "using the InfinityPay service"
+  },
+  "page_three": {
+    "header_text": "WE PROVIDE SERVICES THROUGH PAYMENT SYSTEMS IN:",
+    "south_america": "South America",
+    "asia": "Asia",
+    "europe": "Europe",
+    "cis_countries": "CIS countries",
+    "russia": "Russia",
+    "africa": "Africa"
+  },
+  "page_four": {
+    "header_text": "INFINITY-PAY — A UNIVERSAL PAYMENT SERVICE",
+    "header_sub_text": "A reliable and simple solution that meets all the needs of online business",
+    "innovations": {
+      "header_text": "BUSINESS-ADAPTED INNOVATIONS",
+      "sub_text": "Modern payment technologies that",
+      "sub_text_span": "grow with you"
+    },
+    "geoagraphy": {
+      "header_text": "WIDE GEOGRAPHY",
+      "sub_text": "Operating in dozens of countries, including",
+      "sub_text_span": "hard-to-reach banking markets"
+    },
+    "safety": {
+      "header_text": "RELIABILITY AND SECURITY",
+      "sub_text": "Strong focus on transaction protection and",
+      "sub_text_span": "compliance with jurisdictional requirements"
+    },
+    "personal_work": {
+      "header_text": "PERSONALIZED APPROACH",
+      "sub_text": "Flexible solutions tailored to niches and business models",
+      "sub_text_span": "specifically"
+    }
+  },
+  "page_five": {
+    "header_text": "WE CONNECT THE WORLD",
+    "header_sub_text": "Our goal is to simplify global online payments, wherever you are",
+    "secondary_text": "From the USA and Europe to Asia and South America — we work",
+    "secondary_text_span": "where others find it hard",
+    "countries": {
+      "russia": "Russia",
+      "usa": "USA",
+      "uk": "United Kingdom",
+      "germany": "Germany",
+      "china": "China",
+      "france": "France",
+      "japan": "Japan",
+      "thailand": "Thailand",
+      "spain": "Spain",
+      "chile": "Chile",
+      "singapore": "Singapore",
+      "columbia": "Colombia",
+      "canada": "Canada"
+    }
+  },
+  "page_six": {
+    "header_text": "WHO WE WORK WITH",
+    "digital_products": {
+      "header_text": "DIGITAL PRODUCTS",
+      "sub_text": "easy payments for software, articles, banners, and other information products"
+    },
+    "dating_sites": {
+      "header_text": "DATING SITES",
+      "sub_text": "purchase of additional privileges and expanded functionality via online payment"
+    },
+    "investing_projects": {
+      "header_text": "INVESTMENT PROJECTS",
+      "sub_text": "a tailored payment solution for startup founders and commercial, economic, or financial projects"
+    },
+    "else": {
+      "header_text": "ALSO",
+      "sub_text": "*We configure payment systems for any product on request",
+      "ul_one": {
+        "one": "Igaming",
+        "two": "Marketing",
+        "three": "Travel",
+        "four": "High risk",
+        "five": "Mail/Phone orders",
+        "six": "Online retail"
+      },
+      "ul_two": {
+        "one": "Betting",
+        "two": "18+ content",
+        "three": "Forex",
+        "four": "Telecommunications",
+        "five": "Online trading",
+        "six": "art items"
+      },
+      "ul_three": {
+        "one": "Horoscope",
+        "two": "Freelance",
+        "three": "Telemarketing",
+        "four": "NUTRA",
+        "five": "Online auctions",
+        "six": "Software downloads"
+      }
+    }
+  },
+  "page_seven": {
+    "header_text": "HAVE QUESTIONS? LEAVE A REQUEST",
+    "sub_text": "Submit a request — within 15 minutes we’ll offer a solution that",
+    "sub_text_span": "perfectly suits your business",
+    "name_field": "Your name",
+    "tg_name": "Telegram nickname",
+    "email": "Your e-mail",
+    "submit": "Contact us",
+    "instructions_text": "By clicking the button, you consent to the processing of personal data"
+  },
+  "site_name": "Infinity",
+  "site_name_span": "Pay",
+  "date_from": "est. 2022",
+  "sub_text": "Simple solutions to complex problems",
+  "about": "About us",
+  "payment_systems": "Payment systems",
+  "advantages": "Advantages",
+  "companies": "Partners",
+  "news": "News",
+  "ratings": "Reviews",
+  "contacts": "Contacts",
+  "submit_text": "Contact us",
+  "email": "info@infinitypay.com",
+  "conditions": "TERMS & CONDITIONS",
+  "compnay_name": "InfinityPay, 2022",
+  "rules": "Privacy Policy"
+}

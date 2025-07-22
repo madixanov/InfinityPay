@@ -1,0 +1,54 @@
+.about-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-main h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  width: 1250px;
+  margin: 0;
+}
+
+.header-span {
+  color: #8F9DA8;
+}
+
+.header-sub-text {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.offer-text-container {
+  display: flex;
+  gap: 32px;
+  margin-top: 40px;
+  justify-content: start;
+  align-items: start;
+}
+
+.offer-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: #8F9DA8;
+  width: 1100px;
+  margin: 0;
+}
+
+.offer-sub-text {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+.line {
+  height: 5px;
+  margin-top: 5px;
+  width: 80px;
+  background-color: #8F9DA8;
+}
