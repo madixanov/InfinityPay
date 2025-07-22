@@ -1,6 +1,7 @@
 .about-main {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .about-main h1 {
@@ -51,4 +52,150 @@
   margin-top: 5px;
   width: 80px;
   background-color: #8F9DA8;
+}
+
+.facts-container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  position: relative;
+}
+
+.facts-container h1 {
+  width: 500px;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.facts-container p {
+  margin: 0;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 400px;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.schedule span {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  width: 195px;
+  margin-top: 5px;
+}
+
+.experts {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 420px;
+  left: 230px;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.experts span {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  width: 195px;
+  margin-top: 5px;
+}
+
+.countries {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 420px;
+  left: 500px;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.countries span {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.countries span span {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 300px;
+  left: 725px;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.projects span {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.projects span span {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.years {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  left: 875px;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.years span {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.years span span {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.logo-text {
+  position: absolute;
+  right: -10px;
+  top: 350px;
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+  z-index: 5;
+  transform: rotateZ(10deg);
+}
+
+.logo-text span {
+  color: #8F9DA8;
+}
+
+.laptop {
+  position: absolute;
+  right: -50px;
+  width: 700px;
+  top: 100px;
 }
