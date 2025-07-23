@@ -27,6 +27,7 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  width: 100%;
 }
 
 .left-grid {
@@ -139,7 +140,7 @@
   margin: 0;
   font-size: 26px;
   font-weight: 400;
-  width: 550px;
+  width: 530px;
 }
 
 .safety p span {
@@ -177,9 +178,318 @@
   margin: 0;
   font-size: 26px;
   font-weight: 400;
-  width: 550px;
+  width: 530px;
 }
 
 .personal_work p span {
   font-weight: 700;
+}
+
+@media (max-width: 1500px) {
+  .advantages-main h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .advantages-grid {
+    gap: 30px;
+  }
+
+  .advantages-main p {
+    font-size: 30px;;
+    margin-bottom: 40px;
+  }
+
+  .innovations {
+    width: 570px;
+  }
+
+  .innovations h3 {
+    font-size: 23px;
+    width: 300px;
+  }
+
+  .innovations p {
+    font-size: 17px;
+    width: 400px;
+  }
+
+  .geography {
+    width: 570px;
+  }
+
+  .geography h3 {
+    font-size: 23px;
+    width: 300px;
+  }
+
+  .geography p {
+    font-size: 17px;
+    width: 400px;
+  }
+
+  .safety {
+    width: 570px;
+  }
+
+  .safety h3 {
+    font-size: 23px;
+    width: 300px;
+  }
+
+  .safety p {
+    font-size: 17px;
+    width: 400px;
+  }
+
+  .personal_work {
+    width: 570px;
+  }
+
+  .personal_work h3 {
+    font-size: 23px;
+    width: 300px;
+  }
+
+  .personal_work p {
+    font-size: 17px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .advantages-main h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .advantages-grid {
+    gap: 20px;
+  }
+
+  .advantages-main p {
+    font-size: 25px;;
+    margin-bottom: 40px;
+  }
+
+
+
+  .innovations {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .innovations h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .innovations p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .innovations img {
+    width: 53px;
+  }
+
+  .geography {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .geography h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .geography p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .geography img {
+    width: 53px;
+  }
+
+  .safety {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .safety h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .safety p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .safety img {
+    width: 53px;
+  }
+
+  .personal_work {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .personal_work h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .personal_work p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .personal_work img {
+    width: 53px;
+  }
+}
+
+@media (max-width: 990px) {
+  .advantages-main h1 {
+    font-size: 30px;
+    width: 600px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .advantages-main p {
+    font-size: 20px;
+    width: 500px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .advantages-grid {
+    gap: 20px;
+  }
+
+  .innovations {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .innovations h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .innovations p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .innovations img {
+    width: 53px;
+  }
+
+  .geography {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .geography h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .geography p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .geography img {
+    width: 53px;
+  }
+
+  .safety {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .safety h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .safety p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .safety img {
+    width: 53px;
+  }
+
+  .personal_work {
+    width: 380px;
+    padding: 23px 17px;
+    justify-content: start;
+    padding-top: 64px;
+    height: 200px;
+  }
+
+  .personal_work h3 {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .personal_work p {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .personal_work img {
+    width: 53px;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .advantages-main h1 {
+    font-size: 24px;
+    width: 271px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .advantages-main p {
+    font-size: 14px;
+    width: 252px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .advantages-grid {
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+  }
 }
