@@ -1,0 +1,152 @@
+.contacts-page {
+  background-color: white;
+  color: black;
+  margin: 26px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  padding-top: 88px;
+  padding-bottom: 53px;
+}
+
+.contacts-main {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+}
+
+.c-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.c-text-container h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  width: 490px;
+  margin-bottom: 31px;
+}
+
+.sub-text  {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+  width: 550px;
+}
+
+.sub-text-span {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+  width: 550px;
+  color: #8F9DA8;
+  margin-bottom: 38px;
+}
+
+.fields-row {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.name span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.name input {
+  padding: 20px 21px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid;
+  outline: none;
+  width: 269px;
+}
+
+.name input::placeholder {
+  color: #8F9DA8;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.username span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.username input {
+  padding: 20px 21px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid;
+  outline: none;
+  width: 269px;
+}
+
+.username input::placeholder {
+  color: #8F9DA8;
+}
+
+.email-label {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 9px;
+} 
+
+.email {
+  padding: 20px 21px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid;
+  outline: none;
+  width: 600px;
+  margin-bottom: 17px;
+}
+
+.email::placeholder {
+  color: #8F9DA8;
+}
+
+.submit-btn {
+  padding: 23px 0;
+  width: 642px;
+  border: none;
+  background: linear-gradient(90deg, #E6E8E7, #8F9DA8);
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.rules {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8F9DA8;
+}
+
+.phone {
+  position: absolute;
+  top: -145px;
+  left: 36%;
+}

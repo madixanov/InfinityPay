@@ -4,6 +4,7 @@ import Payments from "../../components/04-Payments/Payments";
 import Advantages from "../../components/05-Advantages/Advantages";
 import Countries from "../../components/06-Countries/Countries";
 import Companies from "../../components/07-Companies/Companies";
+import Contacts from "../../components/08-Contacts/Contacts";
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
       <Advantages />
       <Countries />
       <Companies />
+      <Contacts />
     </main>
   )
 }

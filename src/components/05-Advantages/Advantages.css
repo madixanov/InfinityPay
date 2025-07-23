@@ -26,7 +26,7 @@
 .advantages-grid {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 30px;
 }
 
 .left-grid {

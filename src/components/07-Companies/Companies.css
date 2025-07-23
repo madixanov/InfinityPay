@@ -59,9 +59,8 @@
 .right-c-grid {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   align-items: start;
-  height: 655px;
   gap: 33px;
 }
 
@@ -167,6 +166,8 @@
   border-radius: 30px;
   background: linear-gradient(90deg, #000000, #8F9DA8);
   position: relative;
+  width: 773px;
+  height: 293px;
 }
 
 .else h3 {
@@ -194,5 +195,6 @@ li {
 .else img {
   position: absolute;
   top: 0;
-  left: 140px
+  left: 140px;
+  width: 550px;
 }
