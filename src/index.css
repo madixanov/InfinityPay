@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .container {
   width: 100%;
   max-width: 1320px;
@@ -18,4 +22,28 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    width: 400px;
+  }
 }

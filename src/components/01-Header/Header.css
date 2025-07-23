@@ -1,36 +1,36 @@
-/* Стили для header */
+/* ======= БАЗА header ======= */
 header {
   position: fixed;
-  top: 84px;
+  top: 0;
   left: 0;
   right: 0;
   width: 100%;
   background-color: transparent;
   z-index: 999;
   transition: all 0.3s ease;
+  padding-top: 84px;
 }
 
+/* При прокрутке */
 header.scrolled {
-  top: 0;
   background-color: rgba(0, 0, 0, 0.6);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding: 10px 0;
 }
 
-/* Внутренний контейнер */
+/* ======= ВНУТРЕННИЙ КОНТЕЙНЕР ======= */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 20px;
   width: 100%;
-  transition: color 0.3s ease;
+  box-sizing: border-box;
 }
 
-/* Логотип */
+/* ======= ЛОГОТИП ======= */
 .logo {
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ header.scrolled {
 
 .logo h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   color: black;
   transition: color 0.3s ease;
@@ -62,7 +62,7 @@ header.scrolled .logo p {
   color: white;
 }
 
-/* Навигация */
+/* ======= НАВИГАЦИЯ (десктоп) ======= */
 .button-row {
   display: flex;
   gap: 10px;
@@ -85,7 +85,7 @@ header.scrolled .link-container {
   border-color: rgba(255, 255, 255, 0.6);
 }
 
-/* Языки */
+/* ======= ЯЗЫКИ ======= */
 .lang-container {
   display: flex;
   justify-content: center;
@@ -114,4 +114,126 @@ header.scrolled .link-container {
 header.scrolled .lang-item,
 header.scrolled .divider {
   color: white;
+}
+
+/* ======= АДАПТИВНОСТЬ ======= */
+.desktop-only {
+  display: flex;
+}
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+/* ======= БУРГЕР ======= */
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.burger-menu span {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  display: block;
+}
+
+header.scrolled .burger-menu span {
+  background-color: white;
+}
+
+/* Анимация открытия (опционально) */
+.burger-menu span.open:nth-child(1) {
+  transform: rotate(45deg) translate(3px, 7px);
+}
+
+.burger-menu span.open:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu span.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -10px);
+}
+
+/* ======= МОБИЛЬНОЕ МЕНЮ ======= */
+.mobile-menu {
+  position: fixed;
+  top: 90px; /* Под хедером */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 998;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu div {
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.mobile-menu div:hover {
+  scale: 1.02;
+}
+
+
+@media(max-width: 1300px) {
+  header {
+    padding-top: 35px;
+  }
+
+  .logo h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 837px) {
+  .header {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    padding-left: 25px;
+    padding-right: 40px;
+  }
 }
