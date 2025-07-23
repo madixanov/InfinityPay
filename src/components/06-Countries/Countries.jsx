@@ -15,6 +15,10 @@ import singapore from "../../assets/flags/singapore.svg";
 import columbia from "../../assets/flags/columbia.svg";
 import canada from "../../assets/flags/canada.svg";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for 
+AOS.init();
+
 export default function Countries() {
   const { t } = useTranslation();
 
@@ -53,12 +57,12 @@ export default function Countries() {
   ));
 
   return (
-    <div className="countries-main">
+    <div className="countries-main" id="countries">
       <div className="container">
         <div className="countries-text">
-          <h1>{t("page_five.header_text")}</h1>
-          <h3>{t("page_five.header_sub_text")}</h3>
-          <p>
+          <h1 data-aos="fade-up" data-aos-duration="1000">{t("page_five.header_text")}</h1>
+          <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">{t("page_five.header_sub_text")}</h3>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
             {t("page_five.secondary_text")}{" "}
             <span>{t("page_five.secondary_text_span")}</span>
           </p>

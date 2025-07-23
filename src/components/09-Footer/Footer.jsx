@@ -3,6 +3,19 @@ import { useTranslation } from "react-i18next";
 
 export default function Footer() {
   const { t } = useTranslation();
+  const scrollTo = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      const topOffset = 100; // пиксели отступа сверху
+      const elementPosition = el.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - topOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
 
   return (
     <footer>
@@ -14,14 +27,14 @@ export default function Footer() {
               <p className="logo-f2">{t("sub_text")}</p>
             </div>
             <div className="left-cont">
-              <p>{t("about")}</p>
-              <p>{t("payment_systems")}</p>
-              <p>{t("advantages")}</p>
+              <p onClick={() => scrollTo("about")}>{t("about")}</p>
+              <p onClick={() => scrollTo("payments")}>{t("payment_systems")}</p>
+              <p onClick={() => scrollTo("advantages")}>{t("advantages")}</p>
             </div>
             <div className="right-cont">
-              <p>{t("companies")}</p>
-              <p>{t("news")}</p>
-              <p>{t("ratings")}</p>
+              <p onClick={() => scrollTo("companies")}>{t("companies")}</p>
+              <p onClick={() => scrollTo("countries")}>{t("news")}</p>
+              <p onClick={() => scrollTo("ratings")}>{t("ratings")}</p>
             </div>
             <div className="contact-cont">
               <button>{t("submit_text")}</button>

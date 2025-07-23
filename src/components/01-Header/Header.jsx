@@ -16,6 +16,20 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const scrollTo = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      const topOffset = 100; // пиксели отступа сверху
+      const elementPosition = el.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - topOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
+
   return (
     <header className={scrolled ? "scrolled" : ""}>
       <div className="header">
@@ -26,13 +40,13 @@ export default function Header() {
           <p>{t("date_from")}</p>
         </div>
         <div className="button-row">
-          <div className="link-container">{t("about")}</div>
-          <div className="link-container">{t("payment_systems")}</div>
-          <div className="link-container">{t("advantages")}</div>
-          <div className="link-container">{t("companies")}</div>
-          <div className="link-container">{t("news")}</div>
-          <div className="link-container">{t("ratings")}</div>
-          <div className="link-container">{t("contacts")}</div>
+          <div className="link-container" onClick={() => scrollTo("about")}>{t("about")}</div>
+          <div className="link-container" onClick={() => scrollTo("payments")}>{t("payment_systems")}</div>
+          <div className="link-container" onClick={() => scrollTo("advantages")}>{t("advantages")}</div>
+          <div className="link-container" onClick={() => scrollTo("companies")}>{t("companies")}</div>
+          <div className="link-container" onClick={() => scrollTo("countries")}>{t("news")}</div>
+          <div className="link-container" onClick={() => scrollTo("ratings")}>{t("ratings")}</div>
+          <div className="link-container" onClick={() => scrollTo("contacts")}>{t("contacts")}</div>
         </div>
         <LanguageSwitcher />
       </div>
