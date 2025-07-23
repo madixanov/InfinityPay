@@ -30,6 +30,21 @@ export default function Header() {
     }
   };
 
+  useEffect(() => {
+        if (mobileMenuOpen) {
+            document.body.classList.add("no-scroll");
+            document.documentElement.classList.add("no-scroll"); // <html>
+        } else {
+            document.body.classList.remove("no-scroll");
+            document.documentElement.classList.remove("no-scroll");
+        }
+
+        return () => {
+            document.body.classList.remove("no-scroll");
+            document.documentElement.classList.remove("no-scroll");
+        };
+    }, [mobileMenuOpen]);
+
   return (
     <header className={scrolled ? "scrolled" : ""}>
       <div className="container">

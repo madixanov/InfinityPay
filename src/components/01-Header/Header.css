@@ -177,10 +177,10 @@ header.scrolled .burger-menu span {
 /* ======= МОБИЛЬНОЕ МЕНЮ ======= */
 .mobile-menu {
   position: fixed;
-  top: 90px; /* Под хедером */
+  top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  height: 100vh; /* 👈 Задаем полную высоту окна */
   background-color: rgba(0, 0, 0, 0.6);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -192,6 +192,7 @@ header.scrolled .burger-menu span {
   overflow-y: auto;
   justify-content: center;
   align-items: center;
+  padding-top: 90px;
 }
 
 .mobile-menu div {
