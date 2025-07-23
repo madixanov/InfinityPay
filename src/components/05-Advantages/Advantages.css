@@ -1,0 +1,185 @@
+.advantages-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.advantages-main h1 {
+  font-size: 50px;
+  font-weight: 700;
+  width: 850px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.advantages-main p {
+  font-size: 26px;
+  font-weight: 400;
+  width: 590px;
+  margin: 0;
+  margin-bottom: 85px;
+}
+
+.advantages-grid {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.left-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  justify-content: start;
+  align-items: start;
+}
+
+.right-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  justify-content: start;
+  align-items: start;
+}
+
+.innovations {
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  justify-content: end;
+  align-items: start;
+  border: 1px solid #D9D9D9;
+  border-radius: 25px;
+  padding: 33px 47px;
+}
+
+.innovations h3 {
+  font-size: 26px;
+  font-weight: 700;
+  width: 440px;
+  margin: 0;
+}
+
+.innovations p {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+  width: 550px;
+}
+
+.icon {
+  position: absolute;
+  width: 100px;
+  top: 10px;
+  right: 26px;
+}
+
+.innovations p span {
+  font-weight: 700;
+}
+
+.geography {
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  justify-content: end;
+  align-items: start;
+  border: 1px solid #D9D9D9;
+  border-radius: 25px;
+  padding: 33px 47px;
+}
+
+.geography h3 {
+  font-size: 26px;
+  font-weight: 700;
+  width: 200px;
+  margin: 0;
+}
+
+.geography p {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+  width: 550px;
+}
+
+.geography p span {
+  font-weight: 700;
+}
+
+.right-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  justify-content: start;
+  align-items: start;
+}
+
+.safety {
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  justify-content: end;
+  align-items: start;
+  border: 1px solid #D9D9D9;
+  border-radius: 25px;
+  padding: 33px 47px;
+}
+
+.safety p {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+  width: 550px;
+}
+
+.safety p span {
+  font-weight: 700;
+}
+
+.safety h3 {
+  font-size: 26px;
+  font-weight: 700;
+  width: 300px;
+  margin: 0;
+}
+
+.personal_work {
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  justify-content: end;
+  align-items: start;
+  border: 1px solid #D9D9D9;
+  border-radius: 25px;
+  padding: 33px 47px;
+}
+
+.personal_work h3 {
+  font-size: 26px;
+  font-weight: 700;
+  width: 300px;
+  margin: 0;
+}
+
+.personal_work p {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+  width: 550px;
+}
+
+.personal_work p span {
+  font-weight: 700;
+}
