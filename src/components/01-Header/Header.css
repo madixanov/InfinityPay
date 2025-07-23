@@ -207,13 +207,17 @@ header.scrolled .burger-menu span {
 }
 
 
-@media(max-width: 1300px) {
+@media(max-width: 1500px) {
   header {
     padding-top: 35px;
   }
 
   .logo h1 {
     font-size: 26px;
+  }
+
+  .link-container {
+    font-size: 14px;
   }
 }
 
