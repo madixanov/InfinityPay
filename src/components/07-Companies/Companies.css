@@ -1,0 +1,198 @@
+.companies-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.companies-main h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.companies-grid {
+  display: flex;
+  gap: 39px;
+  justify-content: start;
+  align-items: start;
+}
+
+.digital-products {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: start;
+  width: 394px;
+  height: 682px;
+  border: 1px solid #D9D9D9;
+  padding: 33px 28px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.digital-products h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.digital-products p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8F9DA8;
+  width: 330px;
+  margin: 0;
+}
+
+.digital-products img {
+  position: absolute;
+  width: 450px;
+  bottom: 0;
+  right: 0;
+}
+
+.right-c-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 655px;
+  gap: 33px;
+}
+
+.upper-grid {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 33px;
+}
+
+.dating-sites {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  padding: 33px 28px;
+  width: 340px;
+  border: 1px solid #8F9DA8;
+  border-radius: 30px;
+  height: 290px;
+}
+
+.dating-sites h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.desc {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #8F9DA8;
+  width: 275px;
+}
+
+.dating-sites img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.logo-c {
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  transform: rotateZ(10deg);
+  bottom: 80px;
+  right: 25px;
+  z-index: 10;
+  display: flex;
+}
+
+.logo-c span {
+  color: #8F9DA8;
+}
+
+.investing-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 290px;
+  border: 1px solid #8F9DA8;
+  border-radius: 30px;
+  width: 340px;
+  padding: 33px 28px;
+  position: relative;
+}
+
+.investing-projects h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.investing-projects p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #8F9DA8;
+  width: 330px;
+}
+
+.investing-projects img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.else {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 33px 28px;
+  border: 1px solid #8F9DA8;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #000000, #8F9DA8);
+  position: relative;
+}
+
+.else h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.else p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list-grid {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+li {
+  font-size: 20px;
+  font-weight: 400;
+}
+.else img {
+  position: absolute;
+  top: 0;
+  left: 140px
+}
