@@ -14,8 +14,8 @@ export default function Main() {
       <Payments />
       <Advantages />
       <Countries />
-      {/* <Companies />
-      <Contacts /> */}
+      <Companies />
+      {/* <Contacts /> */}
     </main>
   )
 }
