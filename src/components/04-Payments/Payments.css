@@ -41,3 +41,64 @@
   height: 52px;
   border-radius: 20px;
 }
+
+@media (max-width: 1500px) {
+  .container-row {
+    gap: 70px;
+  }
+
+  .payment-container {
+    width: 340px;
+  }
+
+  .payment-container img {
+    width: 299px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .payments-main h1 {
+    font-size: 35px;
+  }
+  .payment-container {
+    width: 365px;
+  }
+  .container-row {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 990px) {
+  .payments-main h1 {
+    font-size: 30px;
+    width: 450px;
+  }
+
+  .payment-container {
+    width: 350px;
+  }
+
+  .payment-container img {
+    width: 299px;
+  }
+}
+
+@media (max-width: 800px) {
+  .payments-main h1 {
+    font-size: 23px;
+    width: 312px;
+  }
+
+  .container-row {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payment-container {
+    width: 380px;
+  }
+
+  .payment-container img {
+    width: 299px;
+  }
+}

@@ -200,3 +200,188 @@
   width: 700px;
   top: 100px;
 }
+
+@media (max-width: 1200px) {
+  .progress {
+    display: none;
+  }
+
+  .facts-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+  }
+
+.schedule {
+    position: unset;
+    font-size: 28px;
+  }
+
+  .schedule span {
+    font-size: 14px;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .experts {
+    position: unset;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .experts span {
+    font-size: 14px;
+    width: 150px;
+    margin-top: 5px;
+  }
+
+  .countries {
+    position: unset;
+  }
+
+  .countries span span{
+    font-size: 22px;
+    
+  }
+
+  .countries span {
+    font-size: 14px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .projects {
+    position: unset;
+  }
+
+  .projects span span {
+    font-size: 22px;
+  }
+
+  .projects span {
+    font-size: 14px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .years {
+    position: unset;
+  }
+
+  .years span span {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .years span {
+    font-size: 14px;
+    width: 200px;
+    margin-top: 5px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .about-main h1 {
+    font-size: 19px;
+    width: 320px;
+  }
+
+  .header-sub-text {
+    font-size: 14px;
+    width: 303px;
+  }
+
+  .facts-container h1 {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+
+  .offer-text {
+    font-size: 14px;
+    font-weight: 500;
+    width: 257px;
+  }
+
+  .offer-sub-text {
+    font-size: 16px;
+  }
+
+  .logo-text {
+    font-size: 22px;
+    top: 52%;
+    right: 25px;
+  }
+
+  .laptop {
+    width: 300px;
+    right: 0;
+    top: 30%;
+    z-index: -1;
+  }
+
+  .schedule {
+    position: unset;
+    font-size: 22px;
+  }
+
+  .schedule span {
+    font-size: 14px;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .experts {
+    position: unset;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .experts span {
+    font-size: 14px;
+    width: 150px;
+    margin-top: 5px;
+  }
+
+  .countries span span{
+    position: unset;
+    font-size: 22px;
+    
+  }
+
+  .countries span {
+    font-size: 14px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .projects span span {
+    position: unset;
+    font-size: 22px;
+  }
+
+  .projects span {
+    font-size: 14px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .years span span{
+    position: unset;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .years span {
+    font-size: 14px;
+    width: 200px;
+    margin-top: 5px;
+  }
+}

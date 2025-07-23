@@ -10,9 +10,9 @@ export default function Main() {
   return (
     <main>
       <Welcome />
-      <About  />
-      {/* <Payments />
-      <Advantages />
+      {/* <About  /> */}
+      <Payments />
+      {/* <Advantages />
       <Countries />
       <Companies />
       <Contacts /> */}
