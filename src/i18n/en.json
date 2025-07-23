@@ -40,7 +40,7 @@
       "sub_text": "Modern payment technologies that",
       "sub_text_span": "grow with you"
     },
-    "geoagraphy": {
+    "geography": {
       "header_text": "WIDE GEOGRAPHY",
       "sub_text": "Operating in dozens of countries, including",
       "sub_text_span": "hard-to-reach banking markets"
@@ -74,7 +74,8 @@
       "chile": "Chile",
       "singapore": "Singapore",
       "columbia": "Colombia",
-      "canada": "Canada"
+      "canada": "Canada",
+      "vietnam": "Vietnam"
     }
   },
   "page_six": {
