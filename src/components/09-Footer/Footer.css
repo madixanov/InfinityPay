@@ -117,3 +117,188 @@ footer {
   font-weight: 400;
   align-self: end;
 }
+
+@media (max-width: 1200px) {
+  .footer {
+    padding-bottom: 20px;
+  }
+  
+  .logo-f2 {
+    font-size: 14px;
+  }
+
+  .left-cont p {
+    font-size: 16px;
+  }
+
+  .right-cont {
+    margin-bottom: 32px;
+  }
+
+  .right-cont p {
+    font-size: 16px;
+  }
+
+  .nav-links-container {
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .contact-cont {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-cont p {
+    font-size: 16px;
+    align-self: unset;
+    text-align: unset;
+  }
+
+  .contact-cont button {
+    width: 380px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .rules-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .rules-container p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    padding-bottom: 20px;
+  }
+  
+  .logo-f2 {
+    font-size: 14px;
+  }
+
+  .left-cont {
+    margin-top: 32px;
+  }
+
+  .left-cont p {
+    font-size: 16px;
+  }
+
+  .right-cont {
+    margin-bottom: 32px;
+  }
+
+  .right-cont p {
+    font-size: 16px;
+  }
+
+  .nav-links-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .contact-cont {
+    justify-content: start;
+    align-items: start;
+    width: 380px;
+    height: auto;
+  }
+
+  .contact-cont p {
+    font-size: 16px;
+    align-self: unset;
+    text-align: unset;
+  }
+
+  .contact-cont button {
+    width: 380px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .rules-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .rules-container p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    padding-bottom: 20px;
+  }
+  
+  .logo-f2 {
+    font-size: 14px;
+  }
+
+  .left-cont {
+    margin-top: 32px;
+  }
+
+  .left-cont p {
+    font-size: 14px;
+  }
+
+  .right-cont {
+    margin-bottom: 32px;
+  }
+
+  .right-cont p {
+    font-size: 14px;
+  }
+
+  .nav-links-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .contact-cont {
+    justify-content: start;
+    align-items: start;
+    width: 290px;
+    height: auto;
+  }
+
+  .contact-cont p {
+    font-size: 14px;
+    align-self: unset;
+    text-align: unset;
+  }
+
+  .contact-cont button {
+    width: 290px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .rules-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .rules-container p {
+    font-size: 14px;
+  }
+}
