@@ -1,3 +1,7 @@
+.card-container {
+  position: relative;
+}
+
 .welcome-page {
   background-color: white;
   color: black;
@@ -19,6 +23,7 @@
   overflow: hidden;
   max-width: 100%;
   height: 100%;
+  
 }
 
 .text-container {
@@ -65,20 +70,28 @@
 }
 
 .card-1 {
-  width: 400px;
+  width: 500px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -30px;
   z-index: 5;
 }
 
 .card-2 {
-  width: 400px;
+  width: 500px;
   position: absolute;
-  top: 180px;
-  right: 100px;
+  top: 160px;
+  right: 83%;
   z-index: 3;
   transform: rotateZ(-25deg);
+}
+
+.cards-wrapper {
+  position: absolute;
+  top: 150px;
+  left: 55%;
+  width: 100%;
+  pointer-events: none; /* чтобы не мешала кликам */
+  transition: transform 0.5s ease;
 }
 
 
@@ -133,16 +146,15 @@
   }
 
   .card-1 {
-    top: 30px;
-    left: 250px;
-    width: 200px;
+    top: 100px;
+    left: 280px;
+    width: 250px;
   }
 
   .card-2 {
-    top: 100px;
-    left: 200px;
-    width: 200px;
-    z-index: 0;
+    top: 200px;
+    left: 230px;
+    width: 250px;
   }
   
   .text-container h1 {
@@ -162,23 +174,27 @@
     width: 450px;
     margin: 0;
   }
+
+  .text-container button {
+    width: 100%;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 590px) {
   .welcome-page {
     padding-top: 100px;
     overflow-x: hidden;
   }
 
   .card-1 {
-    top: 0px;
-    left: 220px;
+    top: 100px;
+    left: 280px;
     width: 250px;
   }
 
   .card-2 {
-    top: 100px;
-    left: 170px;
+    top: 200px;
+    left: 230px;
     width: 250px;
   }
   
@@ -198,5 +214,68 @@
     font-size: 15px;
     width: 314px;
     margin: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  .cards-wrapper {
+    top: 90px;
+    transform: translateX(100px);
+  }
+
+  .card-1, .card-2 {
+    width: 400px;
+  }
+
+  .card-2 {
+    top: 120px;
+    right: 75%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards-wrapper {
+    top: 90px;
+    transform: translateX(-630px); /* сдвиг вправо */
+  }
+
+  .card-2 {
+    right: 5%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cards-wrapper {
+    top: 90px;
+    transform: translateX(-530px); /* сдвиг вправо */
+  }
+}
+
+@media (max-width: 900px) {
+  .cards-wrapper {
+    top: 90px;
+    transform: translateX(-430px); /* сдвиг вправо */
+  }
+
+  .card-1, .card-2 {
+    width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cards-wrapper {
+    top: -20px;
+    transform: translateX(-230px); /* ещё правее */
+  }
+
+  .card-1, .card-2 {
+    width: 230px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards-wrapper {
+    top: -20px;
+    transform: translateX(-255px); 
   }
 }
