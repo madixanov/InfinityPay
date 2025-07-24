@@ -51,7 +51,7 @@
 
 .digital-products img {
   position: absolute;
-  width: 450px;
+  width: 400px;
   bottom: 0;
   right: 0;
 }
@@ -154,6 +154,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 200px;
 }
 
 .else {
@@ -344,5 +345,35 @@ li {
 
   .list-grid {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .digital-products {
+    width: 290px;
+  }
+
+  .digital-products  img {
+    width: 290px;
+  }
+
+  .dating-sites {
+    width: 290px;
+  }
+
+  .investing-projects {
+    width: 290px;
+  }
+
+  .investing-projects p {
+    width: 290px;
+  }
+
+  .else {
+    width: 290px;
+  }
+
+  .else img {
+    width: 400px;
   }
 }

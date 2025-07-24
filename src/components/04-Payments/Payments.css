@@ -18,7 +18,7 @@
 .container-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
 }
 
 .payment-container {
@@ -27,12 +27,13 @@
   justify-content: start;
   align-items: center;
   text-align: center;
-  width: 400px;
+  width: 410px;
   border: 1px solid #D9D9D9;
   border-radius: 25px;
   height: 162px;
   padding: 4px;
   gap: 13px;
+  height: auto;
 }
 
 .container-header {
@@ -100,5 +101,19 @@
 
   .payment-container img {
     width: 299px;
+  }
+}
+
+@media (max-width: 450px) {
+  .payments-main h1 {
+    width: 359px;
+  }
+
+  .payment-container {
+    width: 290px;;
+  }
+
+  .payment-container img {
+    width: 250px;
   }
 }

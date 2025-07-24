@@ -56,7 +56,8 @@
   align-items: start;
   border: 1px solid #D9D9D9;
   border-radius: 25px;
-  padding: 33px 47px;
+  padding: 20px;
+  width: 630px;
 }
 
 .innovations h3 {
@@ -94,7 +95,8 @@
   align-items: start;
   border: 1px solid #D9D9D9;
   border-radius: 25px;
-  padding: 33px 47px;
+  padding: 20px;
+  width: 630px;
 }
 
 .geography h3 {
@@ -133,7 +135,8 @@
   align-items: start;
   border: 1px solid #D9D9D9;
   border-radius: 25px;
-  padding: 33px 47px;
+  padding: 20px;
+  width: 630px;
 }
 
 .safety p {
@@ -164,7 +167,8 @@
   align-items: start;
   border: 1px solid #D9D9D9;
   border-radius: 25px;
-  padding: 33px 47px;
+  padding: 20px;
+  width: 630px;
 }
 
 .personal_work h3 {
@@ -491,5 +495,23 @@
     flex-direction: column;
     width: 100%;
     gap: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .innovations {
+    width: 290px;
+  }
+
+  .geography {
+    width: 290px;
+  }
+
+  .safety {
+    width: 290px;
+  }
+
+  .personal_work {
+    width: 290px;
   }
 }

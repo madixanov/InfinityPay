@@ -57,3 +57,9 @@ html, body {
     max-width: 400px;
   }
 }
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 350px;
+  }
+}

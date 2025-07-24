@@ -150,3 +150,15 @@
   top: -145px;
   left: 36%;
 }
+
+@media (max-width: 800px) {
+  .contacts-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone {
+    display: none;
+  }
+}
