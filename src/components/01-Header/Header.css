@@ -78,11 +78,23 @@ header.scrolled .logo p {
   transition: color 0.3s ease, border-color 0.3s ease;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-container:hover {
+  background-color: black;
+  color: white;
 }
 
 header.scrolled .link-container {
   color: white;
   border-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+
+header.scrolled .link-container:hover {
+  background-color: white;
+  color: black;
 }
 
 /* ======= ЯЗЫКИ ======= */

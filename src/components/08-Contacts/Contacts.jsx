@@ -31,7 +31,10 @@ export default function Contacts() {
             <button className="submit-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">{t("page_seven.submit")}</button>
             <p className="rules" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">{t("page_seven.instructions_text")}</p>
           </div>
-          <img src={phone} alt="phone" className="phone"/>
+          <div className="phone-container">
+            <div className="inner-p-container"></div>
+            <img src={phone} alt="phone" className="phone"/>
+          </div>
         </div>
       </div>
     </div>
