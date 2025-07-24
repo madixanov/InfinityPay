@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <main>
       <Welcome />
-      {/* <About  /> */}
+      <About  />
       <Payments />
       <Advantages />
       <Countries />

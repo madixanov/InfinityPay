@@ -74,49 +74,74 @@
   margin: 0;
 }
 
+.facts-row {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
 .schedule {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 400px;
+  top: 0px;
+}
+
+.schedule p {
   font-size: 50px;
   font-weight: 800;
   margin: 0;
+  width: 195px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.schedule span {
+.schedule p span {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
-  width: 195px;
-  margin-top: 5px;
 }
 
 .experts {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 420px;
-  left: 230px;
+  top: 20px;
+  left: 120px;
   font-size: 50px;
   font-weight: 800;
   margin: 0;
 }
 
-.experts span {
+.experts p {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+  width: 195px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.experts p span {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
-  width: 195px;
-  margin-top: 5px;
 }
 
 .countries {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 420px;
-  left: 500px;
+  top: 10px;
+  left: 250px;
   font-size: 50px;
   font-weight: 800;
   margin: 0;
@@ -138,11 +163,15 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 300px;
-  left: 725px;
+  top: -50px;
+  left: 360px;
   font-size: 50px;
   font-weight: 800;
   margin: 0;
+}
+
+.projects p {
+  width: 250px;
 }
 
 .projects span {
@@ -161,11 +190,16 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 150px;
+  top: -220px;
   left: 875px;
   font-size: 50px;
   font-weight: 800;
   margin: 0;
+}
+
+.years p {
+  width: 300px;
+  line-height: 10px;
 }
 
 .years span {
@@ -181,7 +215,7 @@
 
 .logo-text {
   position: absolute;
-  right: -10px;
+  right: 20px;
   top: 375px;
   color: black;
   font-size: 60px;
@@ -196,192 +230,404 @@
 
 .laptop {
   position: absolute;
-  right: -50px;
+  right: -20px;
   width: 700px;
   top: 100px;
 }
 
-@media (max-width: 1200px) {
-  .progress {
-    display: none;
+.dot-outter {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8F9DA8;  
+  border-radius: 50%;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.dot-outter img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+@media (max-width: 1500px) {
+  .laptop {
+    right: -50px;
+    bottom: -500px;
+    top: unset;
+    width: 600px;
   }
 
-  .facts-container {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    flex-wrap: wrap;
-  }
-
-.schedule {
-    position: unset;
-    font-size: 28px;
-  }
-
-  .schedule span {
-    font-size: 14px;
-    width: 150px;
-    margin-top: 5px;
-    margin-bottom: 30px;
-  }
-
-  .experts {
-    position: unset;
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-
-  .experts span {
-    font-size: 14px;
-    width: 150px;
-    margin-top: 5px;
-  }
-
-  .countries {
-    position: unset;
-  }
-
-  .countries span span{
-    font-size: 22px;
-    
-  }
-
-  .countries span {
-    font-size: 14px;
-    width: 200px;
-    margin-top: 5px;
-    margin-bottom: 30px;
-  }
-
-  .projects {
-    position: unset;
-  }
-
-  .projects span span {
-    font-size: 22px;
-  }
-
-  .projects span {
-    font-size: 14px;
-    width: 200px;
-    margin-top: 5px;
-    margin-bottom: 30px;
-  }
-
-  .years {
-    position: unset;
-  }
-
-  .years span span {
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-
-  .years span {
-    font-size: 14px;
-    width: 200px;
-    margin-top: 5px;
+  .logo-text {
+    right: -10px;
+    font-size: 45px;
+    bottom: -100px;
+    top: unset;
   }
 }
 
-
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .about-main h1 {
-    font-size: 19px;
-    width: 320px;
-  }
-
-  .header-sub-text {
-    font-size: 14px;
-    width: 303px;
-  }
-
-  .facts-container h1 {
     font-size: 26px;
+    width: 100%;
     margin-bottom: 40px;
   }
 
   .offer-text {
-    font-size: 14px;
-    font-weight: 500;
-    width: 257px;
+    font-size: 16px;
+    width: 100%;
   }
 
-  .offer-sub-text {
-    font-size: 16px;
+  .progress {
+    width: 600px;
+  }
+
+  .schedule p {
+    font-size: 35px;
+  }
+
+  .schedule p span {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .experts {
+    left: 70px;
+  }
+
+  .experts p span {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .countries {
+    left: 170px;
+  }
+
+  .countries p span {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .countries p span span {
+    font-size: 35px;
+  }
+
+  .projects {
+    left: 240px;
+    top: -30px;
+  }
+
+  .projects p span {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .projects p span span {
+    font-size: 35px;
+  }
+
+  .years {
+    left: 600px;
+    top: -170px;
+  }
+
+  .years p {
+    line-height: 10px;
+  }
+
+  .years p span {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .years p span span {
+    font-size: 35px;
+  }
+
+  .experts p {
+    font-size: 35px;
   }
 
   .logo-text {
-    font-size: 22px;
-    top: 52%;
-    right: 25px;
+    font-size: 30px;
+    top: unset;
+    bottom: -170px;
+    right: 45px;
   }
 
   .laptop {
+    width: 400px;
+    right: 10px;
+    bottom: -420px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-main h1 {
+    font-size: 26px;
     width: 300px;
-    right: 0;
-    top: 30%;
-    z-index: -1;
+    margin-bottom: 40px;
+  }
+
+  .about-main p {
+    font-size: 16px;
+  }
+
+  .offer-text {
+    font-size: 16px;
+    width: 250px;
+  }
+
+  .facts-row {
+    justify-content: space-between;
+  }
+
+  .progress {
+    display: none;
+  }
+
+  .dot-outter {
+    display: flex;
   }
 
   .schedule {
     position: unset;
-    font-size: 22px;
+    margin-bottom: 40px;
   }
 
-  .schedule span {
+  .schedule p {
+    font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
+  }
+
+  .schedule p span {
     font-size: 14px;
-    width: 150px;
-    margin-top: 5px;
-    margin-bottom: 30px;
   }
 
   .experts {
     position: unset;
+    margin-bottom: 40px;
+  }
+
+  .experts p {
     font-size: 22px;
-    margin-bottom: 30px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
   }
 
-  .experts span {
+  .experts p span {
     font-size: 14px;
-    width: 150px;
-    margin-top: 5px;
   }
 
-  .countries span span{
+  .countries {
     position: unset;
+    margin-bottom: 40px;
+  }
+
+  .countries p span span {
     font-size: 22px;
-    
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
   }
 
-  .countries span {
+  .countries p span {
     font-size: 14px;
-    width: 200px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    width: 155px;
   }
 
-  .projects span span {
+  .projects {
     position: unset;
+    margin-bottom: 40px;
+  }
+
+  .projects p {
+    width: 155px;
+  }
+
+  .projects p span span {
     font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
   }
 
-  .projects span {
+  .projects p span {
     font-size: 14px;
-    width: 200px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    width: 155px;
   }
 
-  .years span span{
+  .years {
     position: unset;
-    font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
-  .years span {
+  .years p {
+    width: 155px;
+  }
+
+  .years p span span {
+    font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
+  }
+
+  .years p span {
     font-size: 14px;
-    width: 200px;
-    margin-top: 5px;
+    width: 155px;
+  }
+
+  .laptop {
+    width: 300px;
+    bottom: -200px;
+    top: unset;
+  }
+
+  .logo-text {
+    font-size: 20px;
+    top: unset;
+    bottom: 0px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-main h1 {
+    font-size: 26px;
+    width: 266px;
+    margin-bottom: 40px;
+  }
+
+  .about-main p {
+    font-size: 14px;
+  }
+
+  .offer-text {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .facts-row {
+    justify-content: space-between;
+  }
+
+  .progress {
+    display: none;
+  }
+
+  .dot-outter {
+    display: flex;
+  }
+
+  .schedule {
+    position: unset;
+    margin-bottom: 40px;
+  }
+
+  .schedule p {
+    font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
+  }
+
+  .schedule p span {
+    font-size: 14px;
+  }
+
+  .experts {
+    position: unset;
+    margin-bottom: 40px;
+  }
+
+  .experts p {
+    font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
+  }
+
+  .experts p span {
+    font-size: 14px;
+  }
+
+  .countries {
+    position: unset;
+    margin-bottom: 40px;
+  }
+
+  .countries p span span {
+    font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
+  }
+
+  .countries p span {
+    font-size: 14px;
+    width: 155px;
+  }
+
+  .projects {
+    position: unset;
+    margin-bottom: 40px;
+  }
+
+  .projects p {
+    width: 155px;
+  }
+
+  .projects p span span {
+    font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
+  }
+
+  .projects p span {
+    font-size: 14px;
+    width: 155px;
+  }
+
+  .years {
+    position: unset;
+    margin-bottom: 40px;
+  }
+
+  .years p {
+    width: 155px;
+  }
+
+  .years p span span {
+    font-size: 22px;
+    width: 155px;
+    line-height: 20px;
+    gap: 20px;
+  }
+
+  .years p span {
+    font-size: 14px;
+    width: 155px;
+  }
+
+  .laptop {
+    width: 300px;
+    bottom: -200px;
+    top: unset;
+  }
+
+  .logo-text {
+    font-size: 20px;
+    top: unset;
+    bottom: 0px;
+    right: 10px;
   }
 }
