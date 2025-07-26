@@ -118,6 +118,21 @@ footer {
   align-self: end;
 }
 
+.logo-text-c {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  z-index: 5;
+  transform: rotateZ(-6deg);
+}
+
+.logo-text-c span {
+  color: #8F9DA8;
+}
+
 @media (max-width: 1200px) {
   .footer {
     padding-bottom: 20px;
@@ -238,6 +253,11 @@ footer {
   .rules-container p {
     font-size: 16px;
   }
+
+  .logo-text-c {
+    font-size: 25px;
+    left: 40%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -300,5 +320,10 @@ footer {
 
   .rules-container p {
     font-size: 14px;
+  }
+
+  .logo-text-c {
+    font-size: 25px;
+    left: 30%;
   }
 }

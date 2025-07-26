@@ -33,6 +33,7 @@ export default function Contacts() {
           </div>
           <div className="phone-container">
             <div className="inner-p-container"></div>
+            <p className="logo-text-c">{t("site_name")}<span>{t("site_name_span")}</span></p>
             <img src={phone} alt="phone" className="phone"/>
           </div>
         </div>
