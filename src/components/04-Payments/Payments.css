@@ -45,11 +45,11 @@
 
 @media (max-width: 1500px) {
   .container-row {
-    gap: 70px;
+    gap: 20px;
   }
 
   .payment-container {
-    width: 340px;
+    width: 370px;
   }
 
   .payment-container img {
